@@ -1,4 +1,5 @@
 package org.example;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,6 +39,18 @@ public class Main {
 
         }
 
+        // Implementiere ein Programm, das einen Text von der Konsole einliest und anschließend die Buchstaben einzeln ausgibt. Tipp : Erkundigt euch über die Klasse Scanner.
+        Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Gib einen Text ein: ");
+
+        String inputText = scanner.nextLine();
+        System.out.println(inputText);
+
+        scanner.close();
+
+        for(char c: inputText.toCharArray()) {
+            System.out.println(c);
+        }
 }
 }
