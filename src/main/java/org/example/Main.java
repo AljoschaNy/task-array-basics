@@ -28,6 +28,8 @@ public class Main {
         System.out.println("The biggest number is: " + biggestNumber);
 
         // Schritt 4: Erstelle ein zweites Array mit den Zahlen von 11 bis 20.
+        int[] numbersArray2 = {11,12,13,14,15,16,17,18,19,20};
+
         // Schritt 5: Führe eine elementweise Addition beider Arrays durch und speichere das Ergebnis in einem dritten Array. Gib das Ergebnis-Array auf der Konsole aus.
 
 
